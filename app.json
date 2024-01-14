@@ -4,7 +4,7 @@
     "slug": "porofil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./asset/daegun.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./asset/daegun.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zen123.porofil"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39ca45cf-a6f6-4ef6-82a6-18e3bb5f4a78"
+      }
     }
   }
 }
